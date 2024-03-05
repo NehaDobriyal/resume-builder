@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    font-weight: 500;
+    font-size: 14px;
+}
+.resume {
+    margin-top: 10px; /* Adjust this value as needed */
+    width: 100%;
+    box-shadow: rgba(16, 16, 25, 0.1) 0px 3px 15px, rgba(16, 16, 25, 0.1) 0px 7px 23px, rgba(16 , 16, 25, 0.1) 0px 15px 55px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, blanchedalmond 0%, black 100%);
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#print{
+    background-color:#fff;
+    padding: 30px 50px;
+    height: 1120px;
+
+}
+
+.head{
+    display: grid;
+    grid-template-columns: 3fr 1.5fr;
+}
+
+.head .main  span:nth-child(2){
+    color: rgb(100, 100, 100);
+    font-size: 55px;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 5px;
+}
+
+.head .main .post{
+    font-family: 'Barlow', sans-serif;
+}
+
+.head .contacts{
+    text-align: right;
+    padding-top: 7px;
+}
+
+.head .contacts .content{
+    font-weight: 500;
+    padding-right: 5px;
+}
+
+.head .contacts .symbol{
+    margin-right: 5px;
+    font-size: 15px;
+    width: 17px;
+    height: 17px;
+}
+.vertical-line {
+    width: 2px;
+    height: 20px; /* Adjust the height as needed */
+    background-color: rgb(87, 87, 87);
+    margin-left: 10px; /* Adjust the margin as needed */
+    margin-right: 10px; /* Adjust the margin as needed */
+    display: inline-block;
+}
+
+
+.line{
+    height: 0.5px;
+    background-color: rgb(87, 87, 87);
+    margin: 25px 0;
+    margin-bottom: 50px;
+}
+
+.mainbody{
+    display: grid;
+    grid-template-columns: 10fr 1fr 17fr;
+    height: 890px;
+}
+.mainbody .border{
+    background-color: rgb(87, 87, 87);
+    width: 3px;
+    opacity: 2;
+}
+
+.mainbody .rightside{
+    padding-left: 15px;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+    padding-bottom: 3px;
+    border-bottom: 2px greenyellow solid;
+    display:flex ;
+    
+}
+
+.techskill{
+    margin-bottom: 6px;
+}
+
+.button{
+    margin: 12px 0;
+}
+
+.softskill{
+    margin-bottom: 6px;
+}
+
+.course{
+    margin-bottom: 6px;
+}
+
+.language{
+    margin-bottom:6px;
+}
+
+.language span:nth-child(odd){
+    font-weight: 700;
+}
+
+.edubox{
+    margin-bottom: 10px;
+}
+.edubox .head{
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.navbtn{
+    position: fixed;
+    top: 40%;
+    right: 4%;
+    transform: translate(-40%,-4%);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border:#fff 2px solid;
+    transition: 300ms ease-in-out;
+    box-shadow: rgba(16, 16, 25, 0.1) 0px 3px 15px, rgba(16, 16, 25, 0.1) 0px 7px 23px, rgba(16 , 16, 25, 0.1) 0px 15px 55px;
+}
+
+.navbtn:nth-child(2){
+    top: 50%;
+    right: 3.6%;
+    transform: translate(-50%,-3.6%);
+}
+
+.navbtn:nth-child(3){
+    top: 60%;
+    right: 3.2%;
+    transform: translate(-60%,-3.2%);
+}
+
+.navbtn:hover{
+    background-color: black;
+    color: #fff;
+    border: #000 2px solid;
+    height: 65px;
+    width: 65px;
+}
+
+.input-checkbox{
+    margin-right: 10px;
+}
+
+.edu-head{
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.achievement{
+    display: flex;
+    justify-content: center;
+}
+
+.name{
+    border: 2px solid black;
+    border-radius: 9px;
+    width: 250px;
+    overflow: hidden;
+    height: 40px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.post {
+    font-family: 'Barlow', sans-serif;
+    margin-top: 10px;
+}
+
+#profilePictureInput {
+    opacity: 0;
+    position: absolute;
+    top: -9999px;
+}
+
+#profilePicture {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+    overflow:hidden; 
+}
